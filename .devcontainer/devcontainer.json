@@ -6,15 +6,11 @@
     "storage": "32gb"
   },
   "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {
+    "ghcr.io/devcontainers/features/go:1": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
-  },
-  "customizations": {
-    "codespaces": {
-      "openFiles": ["README.md"]
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
     }
   },
   "postCreateCommand": "bash .devcontainer/setup.sh"
